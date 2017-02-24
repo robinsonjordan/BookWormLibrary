@@ -10,7 +10,7 @@ public class RegisterTest {
 	 * for at least one '.', return false if any test fails
 	 */
 	public static boolean testEmail(String email) {
-		
+	    
 		if (email.indexOf('@', email.indexOf('@')) != -1)
 			return false;
 		else if (email.indexOf('@') < 1)
